@@ -1,0 +1,96 @@
+.loginBoxContainer {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: max-content;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid rgb(145, 20, 20);
+  border-radius: 20px;
+  box-shadow: 2px 2px rgb(145, 20, 20);
+}
+.loginForm {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.loginFormTop {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+}
+.h4Pos {
+  display: none;
+  height: max-content;
+  margin: 0;
+}
+.loginFormBottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+}
+.inputDiv {
+  display: flex;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: max-content;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.inputDiv:focus-within {
+  border: 3px solid red;
+}
+.inputTag {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+.controlLogin {
+  display: flex;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: max-content;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  justify-content: center;
+  background-color: #da2a1c;
+  color: white;
+}
+.controlLogin:hover {
+  color: white;
+}
+.controlLoginMissPass {
+  display: flex;
+  width: 90%;
+  height: max-content;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  background-color: white;
+  color: red;
+}
+.controlLoginMissPass:hover {
+  color: red;
+}
+.errMess {
+  display: flex;
+  color: red;
+  font-size: 13px;
+  width: 90%;
+}

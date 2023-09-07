@@ -1,0 +1,46 @@
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: white;
+}
+.loginTopContainer {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  background-color: #da2a1c;
+  padding-left: 30px;
+  padding: 10px;
+}
+.loginTopContainer_h2 {
+  display: flex;
+  width: 100%;
+  color: white;
+  justify-content: center;
+}
+.loginBottomContainer {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  background-image: url("http://wlp.howizbiz.com/static/img/footerLogin.cf032540.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.mobileDisble {
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .loginTopContainer {
+    display: none;
+  }
+  .loginBottomContainer {
+    background-image: none !important;
+  }
+  .loginBoxContainer {
+    border: none !important;
+  }
+}

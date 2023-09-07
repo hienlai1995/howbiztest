@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+.BodyHeaderContainer {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  flex-direction: column;
+  border-bottom: 1px solid gray;
+}
+.logoFunction {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+}
+.stylesIcon {
+  display: flex;
+  width: 50px;
+  height: 70%;
+  font-size: 30px;
+  color: red;
+  align-items: center;
+  border: 1px solid rgb(58, 231, 58);
+  border-radius: 50%;
+  justify-content: center;
+  background-color: rgb(36, 218, 36);
+  margin-right: 20px;
+}
+.SearchAdd {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+}
+.searchContainer {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  align-items: center;
+}
+.searchContainer:focus-within {
+  border: 2px solid red;
+}
+.searchIcon {
+  display: flex;
+  color: gray;
+  font-size: 20px;
+  width: 5%;
+  justify-content: center;
+}
+.inputSearch {
+  display: flex;
+  width: 94%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+.AddNewContai {
+  display: flex;
+  width: 50%;
+  height: 40px;
+  justify-content: end;
+}
+.AddNew {
+  display: flex;
+  width: 25%;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+.ColumInformation {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  margin: 20px;
+}
+.ColumInformationSub {
+  display: flex;
+  width: 11%;
+  height: 40px;
+  align-items: center;
+}
+.DynamicContentContai {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+}
+.newAnimal {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  border-bottom: 1px solid gainsboro;
+}
+.newAnimalName {
+  display: flex;
+  width: 11%;
+  height: max-content;
+  align-items: center;
+  padding: 10px;
+}
+.avatarAnimal {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.newAnimalP {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  flex-wrap: wrap;
+}
+.newAnimalNameAction {
+  display: flex;
+  align-self: center;
+  color: red;
+  font-size: 15px;
+}
+.axtionIcon {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+.paginationContainer {
+  display: flex;
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.PaginationBtn {
+  display: block;
+  width: 7%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5%;
+}
+@media only screen and (max-width: 1200px) {
+  .AddNewContai {
+    width: 30%;
+    justify-content: end;
+  }
+  .AddNew {
+    width: 80%;
+    font-size: 10px;
+  }
+  .searchContainer {
+    width: 70%;
+  }
+  .BodyHeaderContainer {
+    width: 90%;
+  }
+}
